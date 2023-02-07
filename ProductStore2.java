@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+// this is superclass.
 class product{
     String name,sku;
     int weight;
@@ -37,6 +38,7 @@ class product{
         System.out.println(valid ? "" : ", Invalid");
     }
 }
+// this is subclass.
 class Shoe extends product{
     int gender,type,size;
     String brand;
