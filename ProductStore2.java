@@ -51,7 +51,7 @@ class Shoe extends product{
     }
     @Override
     void printInfo(){
-        System.out.print(name + ", " + sku + ", " + price + ", " + weight);
+        System.out.print(name + ", " + sku + ", " + price + ", " + weight); // or you can replace this line with super.peintInfo();
         System.out.println(valid ? "" : ", Invalid");
         System.out.print(gender == 1 ? "female, " : "male, ");
         System.out.print(size + ", ");
